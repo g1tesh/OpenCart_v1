@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-25T18:28:23 IST" name="Default suite" finished-at="2022-08-25T18:28:37 IST" duration-ms="13893">
+    <groups>
+    </groups>
+    <test started-at="2022-08-25T18:28:23 IST" name="Default test" finished-at="2022-08-25T18:28:37 IST" duration-ms="13893">
+      <class name="Opencart_Test.Login_Test">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Opencart_Test.Login_Test@3b0fe47a]" started-at="2022-08-25T18:28:23 IST" name="Setup" finished-at="2022-08-25T18:28:28 IST" duration-ms="5620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Test_Login_Page(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Opencart_Test.Login_Test@3b0fe47a]" started-at="2022-08-25T18:28:31 IST" name="Test_Login_Page" data-provider="LoginData" finished-at="2022-08-25T18:28:32 IST" duration-ms="1275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcxyz123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcxyz123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_Page -->
+        <test-method signature="Test_Login_Page(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Opencart_Test.Login_Test@3b0fe47a]" started-at="2022-08-25T18:28:32 IST" name="Test_Login_Page" data-provider="LoginData" finished-at="2022-08-25T18:28:33 IST" duration-ms="1057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavanoltraining@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_Page -->
+        <test-method signature="Test_Login_Page(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Opencart_Test.Login_Test@3b0fe47a]" started-at="2022-08-25T18:28:33 IST" name="Test_Login_Page" data-provider="LoginData" finished-at="2022-08-25T18:28:34 IST" duration-ms="1070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_Page -->
+        <test-method signature="Test_Login_Page(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Opencart_Test.Login_Test@3b0fe47a]" started-at="2022-08-25T18:28:34 IST" name="Test_Login_Page" data-provider="LoginData" finished-at="2022-08-25T18:28:35 IST" duration-ms="1073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_Page -->
+        <test-method is-config="true" signature="TeadDown()[pri:0, instance:Opencart_Test.Login_Test@3b0fe47a]" started-at="2022-08-25T18:28:35 IST" name="TeadDown" finished-at="2022-08-25T18:28:37 IST" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeadDown -->
+      </class> <!-- Opencart_Test.Login_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

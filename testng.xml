@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ChromeTest">
+<listeners>
+	<listener class-name  = "Utilities.Extent_Report"></listener>
+</listeners>
+  <test thread-count="5" name="AllTest">
+    <classes>
+   <!-- <class name="Opencart_Test.TestRegistration"/>-->
+      <class name = "Opencart_Test.Login_Test"/>
+    </classes>
+  </test> <!-- AllTest -->
+</suite> <!-- ChromeTest -->
